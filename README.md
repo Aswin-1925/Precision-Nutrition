@@ -119,24 +119,25 @@ precision-nutrition-ai/
 ---
 
 ## 🚀 Local Installation & Quick Start
-1. Initialize the AI Engine (Backend)
+1.Initialize the AI Engine (Backend)
 Navigate to the API directory, install dependencies, and boot the FastAPI server.
-
+```text
 Bash
 cd api
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 The engine will load the .pkl models into memory and expose http://localhost:8000/analyze.
 
-2. Initialize the Clinical Portal (Frontend)
+2.Initialize the Clinical Portal (Frontend)
 Open a separate terminal instance, install Node dependencies, and start the Vite development server.
-
+```text
 Bash
 cd client
 npm install
 npm run dev
-
-3. Run a Clinical Simulation
+```
+3.Run a Clinical Simulation
 Open the local application in your browser (typically http://localhost:5173).
 
 Upload the Clinical_Cohort_Mapped_Data.xlsx file via the Data Intake module.
