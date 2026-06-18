@@ -96,25 +96,26 @@ Icons: Lucide-React
 
 ## 📂 Directory Structure
 
+```text
 precision-nutrition-ai/
-│
+|
 ├── api/                             # Python ML Backend
-│   ├── main.py                      # FastAPI Server & Data Validation
-│   ├── biological_mapper.py         # Clinical Rules Ontology Engine
-│   ├── requirements.txt             # Python Dependencies
-│   └── models/                      
-│       ├── xgboost_model.pkl        # Trained Dysbiosis Classifier
-│       └── standard_scaler.pkl      # Feature Normalization Matrix
-│
+|   ├── main.py                      # FastAPI Server & Data Validation
+|   ├── biological_mapper.py         # Clinical Rules Ontology Engine
+|   ├── requirements.txt             # Python Dependencies
+|   └── models/                      
+|       ├── xgboost_model.pkl        # Trained Dysbiosis Classifier
+|       └── standard_scaler.pkl      # Feature Normalization Matrix
+|
 └── client/                          # React Frontend Portal
     ├── src/
-    │   ├── App.jsx                  # Main Clinical Dashboard UI
-    │   ├── index.css                # Tailwind Directives
-    │   └── main.jsx                 # React Entry Point
+    |   ├── App.jsx                  # Main Clinical Dashboard UI
+    |   ├── index.css                # Tailwind Directives
+    |   └── main.jsx                 # React Entry Point
     ├── package.json                 # Node Dependencies
     ├── tailwind.config.js           # UI Theme Configuration
     └── vite.config.js               # Build Tooling
-
+```
 ---
 
 ## 🚀 Local Installation & Quick Start
