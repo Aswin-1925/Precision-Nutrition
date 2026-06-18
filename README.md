@@ -145,3 +145,17 @@ Open the local application in your browser (typically http://localhost:5173).
 - Select any de-identified patient record from the dropdown.
 
 - Click Run AI to generate a bespoke, dynamically reasoned clinical nutrition report.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+  <p><b>Architected & Developed by</b></p>
+  <h3>Aswin VS</h3>
+  <p><i>B.Tech Biotechnology, Karunya Institute of Technology and Sciences</i></p>
+  
+  <br />
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Aswin--1925-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aswin-1925)
+</div>
