@@ -28,9 +28,9 @@
 ---
 
 ## 🔬 Executive Summary
-Standard nutritional AI often limits itself to binary classification (e.g., "Healthy" vs. "Unhealthy"). **Precision Nutrition AI** transcends this by functioning as a digital clinical dietician. 
+ - Standard nutritional AI often limits itself to binary classification (e.g., "Healthy" vs. "Unhealthy"). **Precision Nutrition AI** transcends this by functioning as a digital clinical dietician. 
 
-The platform ingests high-dimensional multi-omics datasets (metagenomics, metabolomics, and host phenotypes), computes a Dysbiosis Risk Factor via an XGBoost ML algorithm, and maps the patient's specific metabolic deficiencies to a robust **Clinical Rules Ontology**. The output is a highly personalized, dynamically generated nutritional intervention designed to restore metabolic homeostasis.
+- The platform ingests high-dimensional multi-omics datasets (metagenomics, metabolomics, and host phenotypes), computes a Dysbiosis Risk Factor via an XGBoost ML algorithm, and maps the patient's specific metabolic deficiencies to a robust **Clinical Rules Ontology**. The output is a highly personalized, dynamically generated nutritional intervention designed to restore metabolic homeostasis.
 
 ---
 
