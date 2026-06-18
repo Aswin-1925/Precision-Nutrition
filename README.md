@@ -168,3 +168,50 @@ The platform has been fully deployed and is accessible live. You can test the ap
 
   [![GitHub](https://img.shields.io/badge/GitHub-Aswin--1925-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aswin-1925)
 </div>
+
+```text
+Personalized Nutrition Platform (Full-Stack Operational Flow)
+│
+├── [STAGE 1] Client Intake & Local Parsing (React - Vercel)
+│   ├── User uploads "Clinical_Cohort_Mapped_Data.xlsx" 
+│   ├── Browser uses SheetJS (xlsx.js) to parse Excel sheets locally
+│   ├── UI displays cohort metrics (e.g., "866 Patients Detected")
+│   └── User selects a de-identified Patient Profile (e.g., "Record #0") from dropdown
+│
+├── [STAGE 2] Handshake & Payload Transmission (HTTP POST)
+│   ├── User clicks "Run AI" button
+│   ├── React compiles the selected patient's 68-feature multi-omics vector
+│   └── Sends async HTTP POST request payload to:
+│       └── [https://presonalized-nutrition.onrender.com/analyze](https://presonalized-nutrition.onrender.com/analyze)
+│
+├── [STAGE 3] Machine Learning Pipeline (FastAPI - Render)
+│   ├── Endpoint (/analyze) receives JSON payload containing 68-feature vector
+│   ├── Data validation check (fails with 422 if vector size != 68)
+│   ├── Data Normalization (standard_scaler.pkl)
+│   │   └── Transforms raw metrics to standard normal scale (mean=0, variance=1)
+│   └── Risk Inference Engine (xgboost_model.pkl)
+│       └── Predicts binary class (0/1) & calculates exact Dysbiosis Risk Probability
+│
+├── [STAGE 4] Clinical Rules Ontology Execution (biological_mapper.py)
+│   ├── Evaluates biological marker levels against healthy cohort baselines:
+│   │   ├── Keystone Taxa (Bifidobacterium, Akkermansia, Faecalibacterium)
+│   │   ├── Metabolic/SCFA profiles (Butyrate, Acetate)
+│   │   └── Host Inflammation Markers (CRP, Calprotectin)
+│   ├── Maps identified biological deficits to prescriptive medical ontology
+│   └── Generates dynamic, clinical-grade dietary recommendations:
+│       ├── Barrier Integrity (Restoring Butyrate via resistant starches)
+│       ├── Mucosal Layer (Upregulating Akkermansia via targeted polyphenols)
+│       └── Systemic Inflammation (Restricting bile-tolerant pathogen fuel)
+│
+├── [STAGE 5] Secure JSON Response Packaging
+│   ├── Combines ML Probability Score with Rule Engine recommendations
+│   └── Emits CORS-approved structured JSON response payload back to client
+│
+└── [STAGE 6] Dynamic Clinical Dashboard Rendering (React - Vercel)
+    ├── Receives JSON package in under 100ms
+    ├── Renders multi-tiered visualization dashboard:
+    │   ├── Gauge Indicator (Calculated Dysbiosis Risk %)
+    │   ├── Biomarker Delta charts (Targeted vs. Actual levels)
+    │   └── Prescriptive Action Cards (Detailed therapeutic food recommendations)
+    └── Dashboard locks in UI, ready for physician interpretation
+```
