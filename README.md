@@ -49,7 +49,8 @@ graph LR
     G -->|JSON Payload| B
     B -->|Render Dashboard| H((Physician UI))
 ```
-🩺 Clinical Capabilities
+---
+##🩺 Clinical Capabilities
 Dynamic Patient Intake: Native ingestion of .xlsx and .csv cohort data, instantly parsing cross-sheet clinical records.
 
 Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the patient's baseline diet (Plant vs. Animal dominant) and exact clinical history (e.g., IBD, Type 2 Diabetes).
@@ -57,8 +58,8 @@ Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the 
 Targeted Metabolite Tracking: Monitors keystone taxa (Akkermansia, Faecalibacterium) and sentinel metabolites (Butyrate, Acetate, Inflammation markers).
 
 Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
-
-🧠 The Biological Ontology Engine
+---
+##🧠 The Biological Ontology Engine
 The backend biological_mapper.py operates on functional medicine principles, evaluating mechanistic pathways rather than raw data points:
 
 Barrier Integrity: Detects SCFA (Butyrate) deficiencies. Prescribes clinical-grade resistant starches and inulin-rich fibers to repair epithelial tight junctions.
