@@ -49,17 +49,18 @@ graph LR
     G -->|JSON Payload| B
     B -->|Render Dashboard| H((Physician UI))
 ```
----
-##🩺 Clinical Capabilities
+## 🩺 Clinical Capabilities
 Dynamic Patient Intake: Native ingestion of .xlsx and .csv cohort data, instantly parsing cross-sheet clinical records.
 
 Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the patient's baseline diet (Plant vs. Animal dominant) and exact clinical history (e.g., IBD, Type 2 Diabetes).
 
 Targeted Metabolite Tracking: Monitors keystone taxa (Akkermansia, Faecalibacterium) and sentinel metabolites (Butyrate, Acetate, Inflammation markers).
 
-Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
 ---
-##🧠 The Biological Ontology Engine
+
+Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
+
+## 🧠 The Biological Ontology Engine
 The backend biological_mapper.py operates on functional medicine principles, evaluating mechanistic pathways rather than raw data points:
 
 Barrier Integrity: Detects SCFA (Butyrate) deficiencies. Prescribes clinical-grade resistant starches and inulin-rich fibers to repair epithelial tight junctions.
@@ -67,6 +68,8 @@ Barrier Integrity: Detects SCFA (Butyrate) deficiencies. Prescribes clinical-gra
 Mucosal Optimization: Maps Akkermansia degradation to insulin resistance risks, triggering high-dose polyphenol and Omega-3 interventions.
 
 Endotoxemia Starvation: Identifies bile-tolerant opportunistic pathogens (Bilophila) and restricts specific saturated animal fats or artificial emulsifiers to lower systemic inflammation.
+
+---
 
 💻 Technology Stack
 Machine Learning & Backend (Python)
