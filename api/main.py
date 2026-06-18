@@ -15,7 +15,10 @@ app = FastAPI(title="Precision Nutrition AI API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Highly permissive for local testing
+    allow_origins=[
+        "http://localhost:5173", 
+        "https://precision-nutrition-mu.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
