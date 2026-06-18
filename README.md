@@ -17,7 +17,6 @@
 ---
 
 ## 📖 Table of Contents
-- [Application](#-live-application)
 - [Executive Summary](#-executive-summary)
 - [System Architecture](#%EF%B8%8F-system-architecture)
 - [Clinical Capabilities](#-clinical-capabilities)
@@ -25,14 +24,8 @@
 - [Technology Stack](#-technology-stack)
 - [Directory Structure](#-directory-structure)
 - [Local Installation & Quick Start](#-local-installation--quick-start)
+- [Application](#-live-application)
 - [Author](#-author)
-
----
-
-## 🌐 Live Application
-The platform has been fully deployed and is accessible live. You can test the application directly using the link below:
-
-👉 **[Access the Precision Nutrition App Here](https://precision-nutrition-mu.vercel.app/)**
 
 ---
 
@@ -154,6 +147,13 @@ Open the local application in your browser (typically http://localhost:5173).
 - Select any de-identified patient record from the dropdown.
 
 - Click Run AI to generate a bespoke, dynamically reasoned clinical nutrition report.
+
+---
+
+## 🌐 Live Application
+The platform has been fully deployed and is accessible live. You can test the application directly using the link below:
+
+👉 **[Access the Precision Nutrition App Here](https://precision-nutrition-mu.vercel.app/)**
 
 ---
 
