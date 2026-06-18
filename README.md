@@ -52,45 +52,45 @@ graph LR
 ## 🩺 Clinical Capabilities
 - Dynamic Patient Intake: Native ingestion of .xlsx and .csv cohort data, instantly parsing cross-sheet clinical records.
 
-Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the patient's baseline diet (Plant vs. Animal dominant) and exact clinical history (e.g., IBD, Type 2 Diabetes).
+- Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the patient's baseline diet (Plant vs. Animal dominant) and exact clinical history (e.g., IBD, Type 2 Diabetes).
 
-Targeted Metabolite Tracking: Monitors keystone taxa (Akkermansia, Faecalibacterium) and sentinel metabolites (Butyrate, Acetate, Inflammation markers).
+- Targeted Metabolite Tracking: Monitors keystone taxa (Akkermansia, Faecalibacterium) and sentinel metabolites (Butyrate, Acetate, Inflammation markers).
 
-Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
+- Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
 
 ---
 
 ## 🧠 The Biological Ontology Engine
 The backend biological_mapper.py operates on functional medicine principles, evaluating mechanistic pathways rather than raw data points:
 
-Barrier Integrity: Detects SCFA (Butyrate) deficiencies. Prescribes clinical-grade resistant starches and inulin-rich fibers to repair epithelial tight junctions.
+- Barrier Integrity: Detects SCFA (Butyrate) deficiencies. Prescribes clinical-grade resistant starches and inulin-rich fibers to repair epithelial tight junctions.
 
-Mucosal Optimization: Maps Akkermansia degradation to insulin resistance risks, triggering high-dose polyphenol and Omega-3 interventions.
+- Mucosal Optimization: Maps Akkermansia degradation to insulin resistance risks, triggering high-dose polyphenol and Omega-3 interventions.
 
-Endotoxemia Starvation: Identifies bile-tolerant opportunistic pathogens (Bilophila) and restricts specific saturated animal fats or artificial emulsifiers to lower systemic inflammation.
+- Endotoxemia Starvation: Identifies bile-tolerant opportunistic pathogens (Bilophila) and restricts specific saturated animal fats or artificial emulsifiers to lower systemic inflammation.
 
 ---
 
 ## 💻 Technology Stack
 Machine Learning & Backend (Python)
-Core API: FastAPI / Uvicorn
+- Core API: FastAPI / Uvicorn
 
-ML Algorithms: XGBoost (Gradient Boosting Decision Trees)
+- ML Algorithms: XGBoost (Gradient Boosting Decision Trees)
 
-Data Processing: Pandas, Scikit-Learn (StandardScaler)
+- Data Processing: Pandas, Scikit-Learn (StandardScaler)
 
-Model Serialization: Joblib
+- Model Serialization: Joblib
 
 Frontend & Visual Analytics (JavaScript)
-Framework: React.js (Vite)
+- Framework: React.js (Vite)
 
-Styling: TailwindCSS
+- Styling: TailwindCSS
 
-Data Visualization: Recharts
+- Data Visualization: Recharts
 
-Clinical Data Parser: SheetJS (xlsx)
+- Clinical Data Parser: SheetJS (xlsx)
 
-Icons: Lucide-React
+- Icons: Lucide-React
 
 ---
 
@@ -140,8 +140,8 @@ npm run dev
 3.Run a Clinical Simulation
 Open the local application in your browser (typically http://localhost:5173).
 
-Upload the Clinical_Cohort_Mapped_Data.xlsx file via the Data Intake module.
+- Upload the Clinical_Cohort_Mapped_Data.xlsx file via the Data Intake module.
 
-Select any de-identified patient record from the dropdown.
+- Select any de-identified patient record from the dropdown.
 
-Click Run AI to generate a bespoke, dynamically reasoned clinical nutrition report.
+- Click Run AI to generate a bespoke, dynamically reasoned clinical nutrition report.
