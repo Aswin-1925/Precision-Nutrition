@@ -56,9 +56,9 @@ Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the 
 
 Targeted Metabolite Tracking: Monitors keystone taxa (Akkermansia, Faecalibacterium) and sentinel metabolites (Butyrate, Acetate, Inflammation markers).
 
----
-
 Mathematical Deltas: Computes the exact numerical deficit of biological markers and explicitly targets the gap in the clinical rationale.
+
+---
 
 ## 🧠 The Biological Ontology Engine
 The backend biological_mapper.py operates on functional medicine principles, evaluating mechanistic pathways rather than raw data points:
@@ -92,7 +92,9 @@ Clinical Data Parser: SheetJS (xlsx)
 
 Icons: Lucide-React
 
-📂 Directory Structure
+---
+
+## 📂 Directory Structure
 
 precision-nutrition-ai/
 │
@@ -113,7 +115,9 @@ precision-nutrition-ai/
     ├── tailwind.config.js           # UI Theme Configuration
     └── vite.config.js               # Build Tooling
 
-🚀 Local Installation & Quick Start
+---
+
+## 🚀 Local Installation & Quick Start
 1. Initialize the AI Engine (Backend)
 Navigate to the API directory, install dependencies, and boot the FastAPI server.
 
@@ -130,6 +134,7 @@ Bash
 cd client
 npm install
 npm run dev
+
 3. Run a Clinical Simulation
 Open the local application in your browser (typically http://localhost:5173).
 
