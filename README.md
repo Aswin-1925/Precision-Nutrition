@@ -3,6 +3,7 @@
 # 🧬 Presonalized Nutrition AI 
 **Clinical-Grade Multi-Omics & Microbiome Reasoning Engine**
 
+[![Live Demo](https://img.shields.io/badge/Live_App-Access_Here-success?style=for-the-badge&logo=vercel)](https://precision-nutrition-mu.vercel.app/)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
@@ -16,6 +17,7 @@
 ---
 
 ## 📖 Table of Contents
+- [Application](#-live-application)
 - [Executive Summary](#-executive-summary)
 - [System Architecture](#%EF%B8%8F-system-architecture)
 - [Clinical Capabilities](#-clinical-capabilities)
@@ -24,6 +26,13 @@
 - [Directory Structure](#-directory-structure)
 - [Local Installation & Quick Start](#-local-installation--quick-start)
 - [Author](#-author)
+
+---
+
+## 🌐 Live Application
+The platform has been fully deployed and is accessible live. You can test the application directly using the link below:
+
+👉 **[Access the Precision Nutrition App Here](https://precision-nutrition-mu.vercel.app/)**
 
 ---
 
