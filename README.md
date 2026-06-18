@@ -50,7 +50,7 @@ graph LR
     B -->|Render Dashboard| H((Physician UI))
 ```
 ## 🩺 Clinical Capabilities
-Dynamic Patient Intake: Native ingestion of .xlsx and .csv cohort data, instantly parsing cross-sheet clinical records.
+- Dynamic Patient Intake: Native ingestion of .xlsx and .csv cohort data, instantly parsing cross-sheet clinical records.
 
 Disease-Contextual Branching: The AI adjusts dietary prescriptions based on the patient's baseline diet (Plant vs. Animal dominant) and exact clinical history (e.g., IBD, Type 2 Diabetes).
 
