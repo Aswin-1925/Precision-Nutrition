@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧬 Precision Nutrition AI 
+# 🧬 Presonalized Nutrition AI 
 **Clinical-Grade Multi-Omics & Microbiome Reasoning Engine**
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
