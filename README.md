@@ -71,7 +71,7 @@ Endotoxemia Starvation: Identifies bile-tolerant opportunistic pathogens (Biloph
 
 ---
 
-💻 Technology Stack
+## 💻 Technology Stack
 Machine Learning & Backend (Python)
 Core API: FastAPI / Uvicorn
 
