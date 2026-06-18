@@ -152,7 +152,7 @@ Open the local application in your browser (typically http://localhost:5173).
 
 <div align="center">
   <p><b>Architected & Developed by</b></p>
-  <h3>Aswin VS</h3>
+  <h3>Aswin vs</h3>
   <p><i>B.Tech Biotechnology, Karunya Institute of Technology and Sciences</i></p>
   
   <br />
