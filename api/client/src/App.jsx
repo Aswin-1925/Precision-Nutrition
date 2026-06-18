@@ -91,7 +91,7 @@ export default function App() {
     const activePatientProfile = csvData[selectedPatientIndex];
 
     try {
-      const response = await fetch('http://localhost:8000/analyze', {
+      const response = await fetch('https://presonalized-nutrition.onrender.com/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ features: activePatientProfile })
